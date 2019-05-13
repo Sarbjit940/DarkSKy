@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather_project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='weather.css'>
+   
+</head>
+
+<body class="body">
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <ul class='info'>
+            <li class="sunrise">Sunrise</li>
+            <li class="sunset">Sunset</li>
+            <li class='wind'>Wind</li>
+            <li class="humidity">Humidity</li>
+        </ul>
+    </div>
+    <div class="temperature">
+        <div class="input">
+                <input type="text" class="advancedSearchTextBox" id="inp" placeholder="City" />
+                <button class="button button4" id='btn'>Temperature</button>
+        </div>
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>C</span>
+            <span><img class="icon"></span>
+
+        </div>
+        <div class="lds-hourglass" id='loader'></div>
+        <div class="temperature-discription">
+            <h2>hot</h2>
+        </div>
+    </div>
+    
+    <script src='skycons.js'></script>
+    <script src='app.js'></script>
+
+</body>
+
+</html>
